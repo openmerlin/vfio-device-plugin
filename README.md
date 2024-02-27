@@ -9,6 +9,8 @@ This plugin is forked from [mrlhansen/vfio-device-plugin](https://github.com/mrl
 1.Support to update vfio devices automatically when the vfio device bind.
 2.Support to bind the vfio devices according to a config.
 
+Contains the [vfio-pci bind script](https://github.com/andre-richter/vfio-pci-bind/blob/master/vfio-pci-bind.sh) which can bind device by manual.
+
 
 ## Configuration
 In the `manifest` directory there is a YAML file for starting the plugin as a container in Kubernetes. This manifest also contains a configration file for the plugin, where you can specify what VFIO devices you want to register as a resource.
