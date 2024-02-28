@@ -5,12 +5,9 @@ metadata:
   namespace: kube-system
 data:
   config.yml: |
-    - resourceName: nvidia/a100
-      vendorId: 10de
-      deviceId: ['20f1']
-    - resourceName: nvidia/v100
-      vendorId: 10de
-      deviceId: ['1db5']
+    - esourceName: ascend/910b
+      vendorId: '19e5'
+      deviceId: ['d802']
 ---
 apiVersion: apps/v1
 kind: DaemonSet

@@ -13,7 +13,7 @@ Contains the [vfio-pci bind script](https://github.com/andre-richter/vfio-pci-bi
 
 
 ## Configuration
-In the `manifest` directory there is a YAML file for starting the plugin as a container in Kubernetes. This manifest also contains a configration file for the plugin, where you can specify what VFIO devices you want to register as a resource.
+In the `manifest` directory there is a YAML file for starting the plugin as a container in Kubernetes. This manifest also contains a configuration file for the plugin, where you can specify what VFIO devices you want to register as a resource.
 
 ```yaml
 - resourceName: ascend/910b
