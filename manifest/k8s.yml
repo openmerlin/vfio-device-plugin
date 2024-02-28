@@ -5,7 +5,7 @@ metadata:
   namespace: kube-system
 data:
   config.yml: |
-    - esourceName: ascend/910b
+    - resourceName: ascend/910b
       vendorId: '19e5'
       deviceId: ['d802']
 ---
